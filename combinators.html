@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <!--combinators = explains the relationship between listed selectors
+       
+    
+    
+        = descendant which is a space
+      > = children
+      ~ = general sibling
+      + = adjacent sibling
+      
+      syntax:
+      selector combinator selector 
+      div      >            p
+    -->
+
+        <div class="container">
+            <p>This is #1</p>
+            <p>This is #2</p> 
+            <div>
+            <p>This is #3</p>
+             </div>
+            <p>This is #4</p>
+            <p>This is #5</p>
+        </div>
+
+      
+</body>
+</html>
+<!--#container{
+    border: 2px solid ;
+}
+#container p{
+    background-color: antiquewhite;
+}
+#container ~p{
+    background-color: antiquewhite;
+}-->
